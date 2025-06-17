@@ -28,7 +28,7 @@ A full-stack task management application with a .NET Minimal API backend and a R
    dotnet ef database update
    ```
    > If you don't have the EF CLI, install it with:
-   > ```sh
+   > ```
    > dotnet tool install --global dotnet-ef
    > ```
 
