@@ -14,17 +14,17 @@ A full-stack task management application with a .NET Minimal API backend and a R
 ## Backend Setup (.NET Minimal API)
 
 1. **Navigate to the backend directory:**
-   ```sh
+   ```
    cd backend
    ```
 
 2. **Restore dependencies:**
-   ```sh
+   ```
    dotnet restore
    ```
 
 3. **Apply database migrations:**
-   ```sh
+   ```
    dotnet ef database update
    ```
    > If you don't have the EF CLI, install it with:
@@ -33,7 +33,7 @@ A full-stack task management application with a .NET Minimal API backend and a R
    > ```
 
 4. **Run the backend server:**
-   ```sh
+   ```
    dotnet run
    ```
    The API will be available at `http://localhost:5209`
@@ -43,17 +43,17 @@ A full-stack task management application with a .NET Minimal API backend and a R
 ## Frontend Setup (React + MUI)
 
 1. **Navigate to the frontend directory:**
-   ```sh
+   ```
    cd frontend
    ```
 
 2. **Install dependencies:**
-   ```sh
+   ```
    npm install
    ```
 
 3. **Start the development server:**
-   ```sh
+   ```
    npm run dev
    ```
    The app will be available at `http://localhost:5173` 
@@ -89,3 +89,4 @@ root/
 ## Troubleshooting
 - Make sure both backend and frontend servers are running.
 - If you change ports, update the API base URL in the frontend.
+-dotnet ef might require pathing configuration or a PC restart
